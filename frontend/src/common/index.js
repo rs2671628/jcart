@@ -1,4 +1,4 @@
-const backendDomain="http://localhost:8080"
+const backendDomain="jcart.vercel.app"
 const SummaryApi={
     signup:{
         url:`${backendDomain}/api/signup`,
