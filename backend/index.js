@@ -6,7 +6,7 @@ const cookieParser = require('cookie-parser')
 require('dotenv').config()
 const app=express()
 app.use(cors({
-    origin: ["https://deploy-mern-frontend.vercel.app"],
+    origin: ["https://https://jcart-ebfb.vercel.app/"],
     methods: ["POST", "GET"],
     credentials: true
 }))
