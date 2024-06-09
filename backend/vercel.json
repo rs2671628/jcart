@@ -1,7 +1,8 @@
 {
     "version":2,
+    "name":"Full Stack",
     "builds": [
-      { "src": "*.js", "use": "@vercel/node" }
+      { "src": "./index.js", "use": "@vercel/node" }
     ],
     "routes": [
         {
